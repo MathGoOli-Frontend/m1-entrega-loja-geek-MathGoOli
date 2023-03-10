@@ -42,7 +42,7 @@ function createCard(cardObj){
     const actionFigures = document.getElementById('actionFigures')
 
     // fazendo as divisoes
-    const card = document.createElement('div')
+    const card = document.createElement('li')
     card.className = "card"
     const figure = document.createElement('figure')
     const article = document.createElement('article')
