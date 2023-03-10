@@ -32,7 +32,7 @@ configurando o deck de cartas:
 
 ![Untitled](readmeImg/Untitled%201.png)
 
-com o JS implementado falta só arrumar as imagens
+com o JS implementado falta só arrumar o css das imagens.
 
 ![Untitled](readmeImg/Untitled%202.png)
 
