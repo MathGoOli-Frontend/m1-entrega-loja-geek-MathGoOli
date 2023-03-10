@@ -82,7 +82,9 @@ main h1 {
 }
 
 
-.ard article{
+.card article{
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
