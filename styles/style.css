@@ -5,13 +5,13 @@ body{
 }
 
 /* Navbar */
-nav, .btn-div{
+header, nav, .btn-div{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-nav{
+header{
     padding: 5px;
     box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.3);
 }
@@ -42,7 +42,7 @@ main {
     margin: 8px;
 }
 /* Titulos */
-main h1 {
+main h2 {
     font-size: 20px;
     padding: 10px 0 10px 0;
 }
@@ -91,7 +91,7 @@ main h1 {
     align-items: center;
 }
 
-.card h1{
+.card h2{
     font-size: 20px;
 }
 .card p{
