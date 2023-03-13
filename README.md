@@ -9,7 +9,7 @@ Em suma, um catálogo virtual.
 
 ## nota:
 
-fiz o JS um pouco diferente. pois não separei a lista netes de criar o card. a propria função que cria o card avalia seu destino.
+fiz o JS um pouco diferente. pois não separei a lista antes de criar o card. a propria função que cria o card avalia seu destino.
 
 ```jsx
 //   ... minha função createCard ...
