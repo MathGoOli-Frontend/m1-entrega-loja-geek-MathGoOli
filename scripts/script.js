@@ -44,7 +44,7 @@ function createCard(cardObj){
     // fazendo as divisoes
     const card = document.createElement('li')
     card.className = "card"
-    const figure = document.createElement('figure')
+    // const figure = document.createElement('figure')
     const article = document.createElement('article')
 
     // criando conteudo
@@ -52,18 +52,18 @@ function createCard(cardObj){
     img.src = cardObj.image
     img.alt = `imagem do ${cardObj.name}`
 
-    const h1 = document.createElement('h1')
-    h1.innerText = cardObj.name
+    const h3 = document.createElement('h3')
+    h3.innerText = cardObj.name
 
     const p = document.createElement('p')
     p.innerText = cardObj.price
 
     // preparando a hierarquia do card
-    card.appendChild(figure)
-    figure.appendChild(img)
+    // card.appendChild(figure)
+    card.appendChild(img)
 
     card.appendChild(article)
-    article.appendChild(h1)
+    article.appendChild(h3)
     article.appendChild(p)
     
     // colocando no HTML
